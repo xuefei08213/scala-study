@@ -16,6 +16,8 @@ object ScalaArray {
     myArray(2) = 40
     myArray(3) = 50
 
+    println(myArray.isEmpty)
+
     for(x <- myArray2){
       println(x)
     }
