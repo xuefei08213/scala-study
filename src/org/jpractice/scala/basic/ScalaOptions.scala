@@ -17,7 +17,6 @@ object ScalaOptions {
 
     println(opt.get)
 
-
   }
 
 }
