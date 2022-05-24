@@ -11,8 +11,7 @@ object Polygon {
 //    var poly = new Polygon
 //    printArea(poly)
     var rectangle  = new Rectangle(55.2,10.2)
-
-
+    println(rectangle.color)
     printArea(rectangle)
 
     var tri =new Triangle(55.2,10.2)
