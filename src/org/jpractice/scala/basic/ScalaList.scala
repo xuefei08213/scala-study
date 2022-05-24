@@ -7,7 +7,14 @@ object ScalaList {
   val myList: List[Int] = List(1, 2, 4, 5, 6, 7, 8)
   val names: List[String] = List("xuefei", "my", "xyr")
 
+  val list:util.List[String] = new util.ArrayList[String]()
+
   def main(args: Array[String]): Unit = {
+
+    list.add("1")
+    list.forEach(x => {
+      println(x)
+    })
 
     // 在列表开头插入元素
     println(0 :: myList)

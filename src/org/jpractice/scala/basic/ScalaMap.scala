@@ -2,11 +2,13 @@ package org.jpractice.scala.basic
 
 object ScalaMap {
 
-  val myMap : Map[Int,String] = Map(1 -> "xf",2->"my",3->"xyr",3->"xyr1")
+  var myMap : Map[Int,String] = Map(1 -> "xf",2->"my",3->"xyr",3->"xyr1")
 
   val myMap2 : Map[Int,String] = Map(5 -> "zz",6 -> "yc")
 
   def main(args: Array[String]): Unit = {
+
+    myMap += (33 -> "333")
 
     println(myMap)
 
@@ -28,8 +30,6 @@ object ScalaMap {
     println(myMap ++ myMap2)
 
     println(myMap2.size)
-
-
 
   }
 
